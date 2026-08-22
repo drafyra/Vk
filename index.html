@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120914">
+  <meta name="description" content="Vicky & Kashish — a little universe of memories, wishes and love.">
+  <title>Vicky ♡ Kashish | Our Little Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-heart">♥</div>
+    <p data-en="A little love story is loading…" data-hi="एक छोटी-सी प्रेम कहानी खुल रही है…">A little love story is loading…</p>
+  </div>
+
+  <div class="cursor-glow"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="hearts-layer" aria-hidden="true"></div>
+
+  <!-- ENTRY -->
+  <section id="gate" class="gate">
+    <div class="gate-orbit orbit-1"></div>
+    <div class="gate-orbit orbit-2"></div>
+    <div class="gate-card glass">
+      <div class="mini-label" data-en="A LITTLE UNIVERSE MADE FOR TWO" data-hi="दो लोगों के लिए बनी एक छोटी-सी दुनिया">A LITTLE UNIVERSE MADE FOR TWO</div>
+      <div class="love-lock">♡</div>
+      <h1>Vicky <span>&amp;</span> Kashish</h1>
+      <p class="gate-line" data-en="Two names. One beautiful story." data-hi="दो नाम। एक खूबसूरत कहानी।">Two names. One beautiful story.</p>
+      <button id="enterBtn" class="primary-btn magnetic">
+        <span>Open Our Story</span><b>♥</b>
+      </button>
+      <div class="language-pills">
+        <button class="lang active" data-lang="en">English</button>
+        <button class="lang" data-lang="hi">हिंदी</button>
+      </div>
+      <small data-en="Tap to enter the memories ✨" data-hi="यादों में जाने के लिए टैप करें ✨">Tap to enter the memories ✨</small>
+    </div>
+  </section>
+
+  <main id="site" class="site hidden">
+    <header class="topbar">
+      <a class="brand" href="#home">V<span>♥</span>K</a>
+      <nav>
+        <a href="#home" data-en="Home" data-hi="होम">Home</a>
+        <a href="#memories" data-en="Memories" data-hi="यादें">Memories</a>
+        <a href="#letter" data-en="Letter" data-hi="लेटर">Letter</a>
+        <a href="#wish" data-en="Wish" data-hi="दुआ">Wish</a>
+      </nav>
+      <div class="top-actions">
+        <button id="langToggle" class="icon-btn" title="Change language">हि</button>
+        <button id="musicBtn" class="icon-btn" title="Love sound">♫</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <div class="eyebrow" data-en="THEIR LITTLE LOVE UNIVERSE" data-hi="उनकी छोटी-सी प्यार की दुनिया">THEIR LITTLE LOVE UNIVERSE</div>
+        <h2>Vicky <em>&amp;</em><br>Kashish</h2>
+        <p data-en="Some stories are written in books. The sweetest ones are written in moments." data-hi="कुछ कहानियाँ किताबों में लिखी जाती हैं। सबसे प्यारी कहानियाँ पलों में लिखी जाती हैं।">
+          Some stories are written in books. The sweetest ones are written in moments.
+        </p>
+        <a class="scroll-btn" href="#memories">
+          <span data-en="Enter the memories" data-hi="यादों में चलें">Enter the memories</span>
+          <b>↓</b>
+        </a>
+      </div>
+
+      <div class="hero-visual">
+        <div class="3d-heart heart-core">♥</div>
+        <div class="orbit-ring r1"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="orbit-ring r3"></div>
+        <div class="floating-note n1">♡</div>
+        <div class="floating-note n2">✦</div>
+        <div class="floating-note n3">∞</div>
+        <div class="cartoon-couple" aria-hidden="true">
+          <div class="cartoon-head head-boy"><i></i></div>
+          <div class="cartoon-body body-boy"></div>
+          <div class="cartoon-head head-girl"><i></i></div>
+          <div class="cartoon-body body-girl"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOVE QUOTE -->
+    <section class="quote-section section">
+      <div class="quote-card glass tilt">
+        <span class="quote-mark">“</span>
+        <p data-en="May your smiles stay endless, your hands stay together, and your story keep becoming more beautiful with every tomorrow."
+           data-hi="आपकी मुस्कान हमेशा बनी रहे, आपके हाथ हमेशा साथ रहें और हर आने वाला कल आपकी कहानी को और खूबसूरत बनाए।">
+          May your smiles stay endless, your hands stay together, and your story keep becoming more beautiful with every tomorrow.
+        </p>
+        <span class="quote-mark end">”</span>
+      </div>
+    </section>
+
+    <!-- MEMORIES -->
+    <section id="memories" class="section memories-section">
+      <div class="section-heading">
+        <div class="eyebrow" data-en="SEVEN LITTLE MEMORIES" data-hi="सात छोटी-सी प्यारी यादें">SEVEN LITTLE MEMORIES</div>
+        <h3 data-en="Every picture has a heartbeat." data-hi="हर तस्वीर में एक धड़कती हुई याद है।">Every picture has a heartbeat.</h3>
+        <p data-en="Tap any memory to see it in the little lightbox." data-hi="किसी भी याद पर टैप करके उसे बड़ी स्क्रीन पर देखें।">Tap any memory to see it in the little lightbox.</p>
+      </div>
+
+      <div class="memory-grid">
+        <article class="memory-card big tilt" data-index="0">
+          <img src="assets/memory-1.webp" alt="Vicky and Kashish together">
+          <div class="memory-overlay"><span>01</span><h4>Us, together ♡</h4></div>
+        </article>
+        <article class="memory-card tilt" data-index="1">
+          <img src="assets/memory-2.webp" alt="Vicky and Kashish memory">
+          <div class="memory-overlay"><span>02</span><h4>Little moments</h4></div>
+        </article>
+        <article class="memory-card tilt" data-index="2">
+          <img src="assets/memory-3.webp" alt="Vicky and Kashish outdoors">
+          <div class="memory-overlay"><span>03</span><h4>Adventure time</h4></div>
+        </article>
+        <article class="memory-card tilt" data-index="3">
+          <img src="assets/memory-4.webp" alt="Vicky and Kashish smiling">
+          <div class="memory-overlay"><span>04</span><h4>That smile</h4></div>
+        </article>
+        <article class="memory-card tilt" data-index="4">
+          <img src="assets/memory-5.webp" alt="Kashish memory">
+          <div class="memory-overlay"><span>05</span><h4>Just her ♡</h4></div>
+        </article>
+        <article class="memory-card big tilt" data-index="5">
+          <img src="assets/memory-6.webp" alt="Kashish on the river">
+          <div class="memory-overlay"><span>06</span><h4>Beautiful days</h4></div>
+        </article>
+        <article class="memory-card wide tilt" data-index="6">
+          <img src="assets/memory-7.webp" alt="Kashish smiling">
+          <div class="memory-overlay"><span>07</span><h4>A smile worth remembering</h4></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3D LOVE CARD -->
+    <section class="section promise-section">
+      <div class="promise-scene">
+        <div class="promise-card" id="promiseCard">
+          <div class="promise-front">
+            <span class="seal">♥</span>
+            <div class="eyebrow">V &amp; K</div>
+            <h3 data-en="One story. Many tomorrows." data-hi="एक कहानी। आने वाले कई कल।">One story. Many tomorrows.</h3>
+            <p data-en="Turn the card for a little promise." data-hi="एक छोटे-से वादे के लिए कार्ड पलटें।">Turn the card for a little promise.</p>
+            <button class="flip-btn" id="flipBtn">↻</button>
+          </div>
+          <div class="promise-back">
+            <div class="eyebrow" data-en="A LITTLE PROMISE" data-hi="एक छोटा-सा वादा">A LITTLE PROMISE</div>
+            <p data-en="May every difficult day end with a reason to smile, and every happy day become a memory you both keep forever."
+               data-hi="हर मुश्किल दिन मुस्कान की वजह पर खत्म हो और हर खुश दिन ऐसी याद बने जिसे आप दोनों हमेशा संभालकर रखें।">
+              May every difficult day end with a reason to smile, and every happy day become a memory you both keep forever.
+            </p>
+            <div class="signature">♡ Vicky &amp; Kashish ♡</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LETTER -->
+    <section id="letter" class="section letter-section">
+      <div class="letter-wrap">
+        <div class="letter-glow"></div>
+        <div class="letter-paper tilt">
+          <div class="paper-top">♥</div>
+          <div class="eyebrow" data-en="A LITTLE LOVE LETTER" data-hi="एक छोटा-सा लव लेटर">A LITTLE LOVE LETTER</div>
+          <h3 data-en="For Vicky &amp; Kashish" data-hi="Vicky और Kashish के लिए">For Vicky &amp; Kashish</h3>
+          <p data-en="There are people who enter our lives and quietly make ordinary days feel special. Keep choosing each other, keep laughing at the little things, and keep making room for new memories."
+             data-hi="कुछ लोग हमारी ज़िंदगी में आते हैं और चुपचाप साधारण दिनों को खास बना देते हैं। हमेशा एक-दूसरे को चुनते रहिए, छोटी-छोटी बातों पर हँसते रहिए और नई यादों के लिए जगह बनाते रहिए।">
+            There are people who enter our lives and quietly make ordinary days feel special. Keep choosing each other, keep laughing at the little things, and keep making room for new memories.
+          </p>
+          <p data-en="May your bond stay soft in difficult moments, strong in uncertain moments, and full of laughter in all the moments that matter."
+             data-hi="मुश्किल पलों में आपका रिश्ता नरम, अनिश्चित पलों में मजबूत और ज़िंदगी के हर खास पल में हँसी से भरा रहे।">
+            May your bond stay soft in difficult moments, strong in uncertain moments, and full of laughter in all the moments that matter.
+          </p>
+          <div class="letter-sign">With a little extra love,<br><strong>♥</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WISH -->
+    <section id="wish" class="section wish-section">
+      <div class="wish-card glass">
+        <div class="wish-icon">✦</div>
+        <div class="eyebrow" data-en="A PRAYER FOR TWO" data-hi="दो लोगों के लिए एक दुआ">A PRAYER FOR TWO</div>
+        <h3 data-en="May this pair always stay safe, happy &amp; together." data-hi="यह जोड़ी हमेशा सलामत, खुश और साथ रहे।">May this pair always stay safe, happy &amp; together.</h3>
+        <p data-en="May love become friendship, friendship become strength, and every new chapter bring them closer."
+           data-hi="प्यार दोस्ती बने, दोस्ती ताकत बने और हर नया अध्याय उन्हें और करीब लाए।">
+          May love become friendship, friendship become strength, and every new chapter bring them closer.
+        </p>
+        <button id="wishBtn" class="primary-btn">
+          <span data-en="Send the wish ✨" data-hi="दुआ भेजें ✨">Send the wish ✨</span>
+          <b>♥</b>
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-heart">♥</div>
+      <div class="footer-names">Vicky <span>&amp;</span> Kashish</div>
+      <a href="https://www.instagram.com/vk__vicky_kothe?igsh=amx0NTZseWVnMGNz" target="_blank" rel="noopener noreferrer" class="instagram-link">
+        @vk__vicky_kothe ↗
+      </a>
+      <div class="tiny-credit">Crafted with love by <a href="#" aria-label="Official Sanjay Art">Official Sanjay Art</a></div>
+    </footer>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <button id="closeLightbox" class="close-lightbox">×</button>
+    <button id="prevPhoto" class="photo-nav prev">‹</button>
+    <figure>
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button id="nextPhoto" class="photo-nav next">›</button>
+  </div>
+
+  <div id="toast" class="toast">♥</div>
+  <script src="script.js"></script>
+</body>
+</html>
